@@ -1,5 +1,7 @@
 import hashlib
 
+MAX_SUPPLY = 72492272
+
 class OpenChainBlock:
     def __init__(self, previous_hash_block, full_nodes_list, light_nodes_list, transaction_list, worker_nodes_list) -> None:
         self.previous_hash_block = previous_hash_block
